@@ -28,8 +28,21 @@ console.log(myFunc());
 // Stack Memory (Primitive Datatypes)  
 // Heap Memory  (Non-Primitive Datatypes)
 
+//Example for Stack Memory  (Change by value as in stock memory the copy of the variable is getting changed)
 
-//For Example(Heep memory) change by reference used here:
+let userOne ="Himanshu"
+
+let userTwo= userOne;
+
+userTwo="Meenal";
+
+console.log(userOne);
+console.log(userTwo);
+
+
+
+
+//For Example(Heep memory) change by reference used here: {Value by reference the change is done in actual place and no copy created}
 
 const checkListOne ={
     email: "himan1156@google.com",
