@@ -37,6 +37,28 @@ const allInOneArr = togetherArr.flat(Infinity);
 
 console.log(allInOneArr);
 
+// Another Property on converting string into Array - array.from
+
+
+const propertyAnother = Array.isArray("Himanshu");
+
+const fromProperty = Array.from("Himanshu");
+
+console.log(propertyAnother);
+console.log(fromProperty);
+
+
+// array.of and array.from works like the below
+
+let score1 = 250;
+let score2 = 500;
+let score3 = 750;
+let score4 = 1000;
+
+const combinedScores= Array.of(score1,score2,score3,score4)
+
+console.log(combinedScores);
+
 
 
 
